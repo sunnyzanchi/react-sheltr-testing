@@ -1,0 +1,21 @@
+{
+  "name": "sheltr-test",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel --open -p 3000 ./src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Zanchi <emzanchi@gmail.com> (https://github.com/zanchi)",
+  "license": "ISC",
+  "dependencies": {
+    "@taito/react-sheltr": "^1.0.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  }
+}
