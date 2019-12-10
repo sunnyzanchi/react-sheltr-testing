@@ -14,6 +14,11 @@ const items = [
   { image: 'https://loremflickr.com/400/400/dog?lock=10', name: 'Item 10' }
 ]
 
+// Two most important things to get react-sheltr working:
+// `startOnUnmount` on the second half of the transition
+// and triggering react-sheltr's `onClick` function when the first
+// half of the transition is supposed to start
+
 const ItemView = ({ onBack, item }) => (
   <SharedElement sharedId={item.name} startOnUnmount>
     {({ ...sheltrProps }) => (
